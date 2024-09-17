@@ -88,6 +88,21 @@ h1 {
 }
 
 .menu-salgado{
-    display: flex;
     margin-top: 300px
+}
+
+.carne{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.d-block{
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+}
+
+.carousel-caption{
+    text-align: center;
 }
