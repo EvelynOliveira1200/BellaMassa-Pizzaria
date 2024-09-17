@@ -88,11 +88,5 @@ h1 {
 }
 
 .menu-salgado{
-    display: flex;
-    margin-top: 300px
-}
-
-.menu-doce{
-    display: flex;
     margin-top: 300px
 }
