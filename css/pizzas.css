@@ -91,3 +91,39 @@ h1 {
     margin-top: 300px
 }
 
+/* Centraliza o carrossel e define o tamanho */
+.carousel {
+    max-width: 800px; /* Define a largura máxima do carrossel */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilo para as imagens do carrossel */
+.carousel-inner img {
+    width: 100%; /* Faz as imagens ocuparem toda a largura do carrossel */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+/* Estilo das legendas do carrossel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para as legendas */
+    padding: 10px; /* Adiciona um pouco de espaçamento */
+    border-radius: 5px; /* Arredonda os cantos das legendas */
+}
+
+/* Estilo dos botões de controle do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco para os ícones */
+    border-radius: 50%; /* Torna os ícones circulares */
+}
+
+/* Estilo adicional para o texto das legendas */
+.carousel-caption h5 {
+    font-size: 1.5rem; /* Aumenta o tamanho do título */
+    font-weight: bold; /* Torna o título em negrito */
+}
+
+.carousel-caption p {
+    font-size: 1rem; /* Tamanho da fonte dos parágrafos */
+}
