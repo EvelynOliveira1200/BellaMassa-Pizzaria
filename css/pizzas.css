@@ -91,7 +91,9 @@ h1 {
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
-    margin: 5px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 5px;
 }
 
 .main-nav .nav-link:hover{
