@@ -88,42 +88,78 @@ h1 {
 }
 
 .menu-salgado{
-    margin-top: 300px
+    background-color: #293038;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
 
-/* Centraliza o carrossel e define o tamanho */
+.intro-salgado{
+    margin-top: 200px;
+}
+
+.titulo-menu{
+    white-space: nowrap;
+    display: flex;
+    color: #ffffff;
+}
+
+.texto-menu{
+    display: flex;
+    margin-left: 25px;
+    color: #ffffff;
+}
+
+.titulo-carne{
+    margin-top: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.titulo-frango{
+    margin-top: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.titulo-vegetariano{
+    margin-top: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+
 .carousel {
-    max-width: 800px; /* Define a largura máxima do carrossel */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
-/* Estilo para as imagens do carrossel */
+
 .carousel-inner img {
-    width: 100%; /* Faz as imagens ocuparem toda a largura do carrossel */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Adiciona bordas arredondadas */
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
 }
 
-/* Estilo das legendas do carrossel */
+
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para as legendas */
-    padding: 10px; /* Adiciona um pouco de espaçamento */
-    border-radius: 5px; /* Arredonda os cantos das legendas */
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
 }
 
-/* Estilo dos botões de controle do carrossel */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco para os ícones */
-    border-radius: 50%; /* Torna os ícones circulares */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 50%; 
 }
 
-/* Estilo adicional para o texto das legendas */
+
 .carousel-caption h5 {
-    font-size: 1.5rem; /* Aumenta o tamanho do título */
-    font-weight: bold; /* Torna o título em negrito */
+    font-size: 1.5rem; 
+    font-weight: bold; 
 }
 
 .carousel-caption p {
-    font-size: 1rem; /* Tamanho da fonte dos parágrafos */
+    font-size: 1rem; 
 }
