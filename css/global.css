@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .cinzel {
@@ -15,6 +16,7 @@
 
 body  {
     line-height: 1.6;
+    background-color: #293038;
 }
 
 h1 {
@@ -23,6 +25,11 @@ h1 {
     margin-left: 20px;
     margin-top: 20px;
   }
+
+  a {
+    text-decoration: none;
+    border: none;
+}
 
   p {
     font-family: "Poppins", sans-serif;
@@ -205,38 +212,65 @@ h1 {
     font-size: 2rem;
     color: #ffffff;
     text-align: center;
+    text-decoration: none;
 }
 
-.site-footer{
+.footer {
     background-color: #020c15;
-    color: rgb(248, 246, 246);
+    color: #f1f0e6;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
 }
 
-.contact-info {
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 150px;
     margin-bottom: 10px;
 }
 
-.autor-name,
-.autor-email {
-    margin-bottom: 5px;
+.footer-hours, .footer-contact {
+    width: 20%;
+    text-align: left;
 }
 
-.email-link {
-    color: #f1f0e6;
+.footer-hours h2, .footer-contact h2 {
+    position: relative;
+    z-index: 1;
+    margin: 20px 0;
+    margin-top: 155px;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;;
+}
+
+.footer-map iframe {
+    width: 300px;
+    height: 200px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social img {
+    width: 50px;
+    margin: 5px;
+}
+
+.footer a {
+    color: #fcf9d8;
     text-decoration: none;
-    transition: color 0.3s;
 }
 
-.email-link:hover{
-    color: #fff;
-}
-
-.footer-copy{
-    font-size: 0.9em;
-    color:#ccc;
+.footer a:hover {
+    text-decoration: underline;
 }
 
 
