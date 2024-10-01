@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@550&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+
 body  {
-    font-family: "Helvetica Neue", sans-serif;
     line-height: 1.6;
+    background-color: #293038;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     
 }
 
@@ -87,12 +97,7 @@ h1 {
     color: #fcf9d8;
 }
 
-.menu-salgado{
-    background-color: #293038;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-}
-
-.intro-salgado{
+.intro{
     margin-top: 200px;
 }
 
@@ -100,30 +105,30 @@ h1 {
     white-space: nowrap;
     display: flex;
     color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
 }
 
 .texto-menu{
     display: flex;
     margin-left: 25px;
     color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
 }
 
-.titulo-carne{
+.titulo-produtos{
     margin-top: 150px;
     text-align: center;
     color: #ffffff;
-}
-
-.titulo-frango{
-    margin-top: 150px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.titulo-vegetariano{
-    margin-top: 150px;
-    text-align: center;
-    color: #ffffff;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
 }
 
 .carousel {
