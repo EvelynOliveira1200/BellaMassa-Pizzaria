@@ -48,16 +48,16 @@ h1 {
 
 
 
-  #backgroundS {
+#backgroundS {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     inset: 0;
 }
 #background::after {
     content: '';
-    width: inherit;
-    height: inherit;
+    width: 100%;
+    height: 60rem;
     position: absolute;
     inset: 0;
     background-image: linear-gradient(0deg, rgba(2, 12, 21, 0.895) 27%, rgba(146, 146, 146, 0.393) 76%);
@@ -69,10 +69,10 @@ h1 {
     top: 0;
     display:flex;
     justify-content:space-between;
-    height: 180px;
+    height: 11rem;
     width: 100%;
-    background-color:var(--background-header);
-    color: var(--texto-header);
+    background-color: #020c1571;
+    color: rgb(248, 246, 246);
     padding: 1rem 0;
     text-align: center;
     font-size: 2rem;
@@ -82,14 +82,15 @@ h1 {
 
 #logo-img {
     align-items:center;
-    height: 150px;
-    width: 150px;
-    margin-left: 250px;
-    border-radius: 120px;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 10rem;
+    border-radius: 100%;
   }
+
 .site-title {
-    margin-top: 50px;
-    margin-right: 250px;
+    margin-top: 3rem;
+    margin-right: 2%;
     justify-content: center;
     font-size: 2rem;
 }
@@ -98,25 +99,34 @@ h1 {
     list-style: none;
     display: flex;
     justify-content: center;
+    
 }
 
-.main-nav{
-    margin-top: 50px;
-    margin-right: 250px;
-}
-
-.main-nav .nav-link{
-    color: var(--texto-header);
+.nav-list a {
+    color: rgb(248, 246, 246);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
-    margin: 20px;
-    margin-left: 40px;
-    margin-right: 5px;
+    margin-left: 9%;
+    margin-right: 1%;
+}
+
+.main-nav{
+    margin-top: 3rem;
+    margin-right: 15%;
+}
+
+.main-nav .nav-link{
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: 10%;
+    justify-content: space-between;
 }
 
 .main-nav .nav-link:hover{
-    color: var(--transicao-header);
+    color: #fcf9d8;
 }
 
 .intro{
