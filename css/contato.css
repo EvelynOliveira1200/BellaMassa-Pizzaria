@@ -1,59 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@550&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Helvetica Neue", sans-serif;
-  line-height: 1.6;
-  background-color: #293038;
-  background: linear-gradient(
-    109deg,
-    rgba(10, 12, 16, 0.99) 15%,
-    rgba(10, 12, 16, 0.7) 50%,
-    rgba(10, 12, 16, 0.99) 85%
-  );
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+
+body  {
+    line-height: 1.6;
+    background-color: #293038;
 }
 
 h1 {
-  font-family: "Bangers", sans-serif;
-  background-color: none;
-  color: #ffffff;
-  margin-left: 30px;
-  margin-top: 30px;
-  font-size: 3.3rem;
+    background-color: none;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    border: none;
 }
 
-#backgroundS {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  inset: 0;
-}
-#background::after {
-  content: "";
-  width: inherit;
-  height: inherit;
-  position: fixed;
-  inset: 0;
-  background-image: linear-gradient(
-    0deg,
-    rgba(2, 12, 21, 0.868) 27%,
-    rgba(255, 255, 255, 0.393) 76%
-  );
-}
+  p {
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 35px;
+  }
+
 
 .site-header {
   position: fixed;
   top: 0;
-  display: flex;
-  justify-content: space-between;
+  display:flex;
+  justify-content:space-between;
   height: 180px;
   width: 100%;
-  background-color: #020c155b;
+  background-color: #020c1571;
   color: rgb(248, 246, 246);
   padding: 1rem 0;
   text-align: center;
@@ -63,7 +59,7 @@ h1 {
 }
 
 #logo-img {
-  align-items: center;
+  align-items:center;
   height: 150px;
   width: 150px;
   margin-left: 250px;
@@ -76,65 +72,117 @@ h1 {
   font-size: 2rem;
 }
 
-.main-nav .nav-list {
+.main-nav .nav-list{
   list-style: none;
   display: flex;
   justify-content: center;
-  
 }
 
-.main-nav {
+.main-nav{
   margin-top: 50px;
   margin-right: 250px;
 }
 
-.main-nav .nav-link {
+.main-nav .nav-link{
   color: rgb(248, 246, 246);
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.4rem;
   transition: color 0.3s;
   margin: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-right: 5px;
 }
 
-.main-nav .nav-link:hover {
+.main-nav .nav-link:hover{
   color: #fcf9d8;
 }
 
-.contato h3 {
- font-family: "Helvetica Neue", sans-serif;
-  font-size: 30px;
-  margin-left: 70px;
-  margin-top: 15%;
+#equipe-contato{
+  margin-top: 15rem;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
+  text-align: center;
 
 }
 
+#redes-equipe{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+.equipe{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.img-ana,
+.img-evelyn,
+.img-laura{
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+
+}
+
+.equipe a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.contato h4 {
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  color: rgba(255, 255, 255, 0.753);
+}
 .contato p {
-  font-size: 20px;
-  font-weight: bolder;
-  margin-left: 70px;
-  margin-top: 15px;
-  color: rgba(248, 248, 248, 0.815);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.918);
+  margin-bottom: 5rem;
+  text-align: justify;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-.contato blockquote {
-  font-family: "PT Serif", serif;
+blockquote {
+  font-family: "Cinzel", serif;
   font-weight: 10;
   color: rgb(221, 221, 221);
-  margin-left: 70px;
-  font-size: 18px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
 }
 
 form {
-  max-width: 600px;
+  max-width: 40rem;
   margin: 0 auto;
   background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(167, 165, 165, 0.849);
-  margin-top: 40px;
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 0.9rem rgba(167, 165, 165, 0.849);
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 form fieldset {
   border: 1px solid rgb(44, 44, 44);
@@ -176,34 +224,60 @@ form button:hover {
   border-radius: 2px;
 }
 
-.site-footer {
+.footer {
   background-color: #020c15;
-  color: rgb(248, 246, 246);
+  color: #f1f0e6;
+  padding: 20px;
   text-align: center;
-  padding: 10px;
-  margin-top: 20px;
 }
 
-.contact-info {
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 150px;
   margin-bottom: 10px;
 }
 
-.autor-name,
-.autor-email {
-  margin-bottom: 5px;
+.footer-hours, .footer-contact {
+  width: 20%;
+  text-align: left;
 }
 
-.email-link {
-  color: #f1f0e6;
+.footer-hours h2, .footer-contact h2 {
+  position: relative;
+  z-index: 1;
+  margin: 20px 0;
+  margin-top: 155px;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;;
+}
+
+.footer-map iframe {
+  width: 300px;
+  height: 200px;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social img {
+  width: 50px;
+  margin: 5px;
+}
+
+.footer a {
+  color: #fcf9d8;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
-.email-link:hover {
-  color: #fff;
-}
-
-.footer-copy {
-  font-size: 0.9em;
-  color: #ccc;
+.footer a:hover {
+  text-decoration: underline;
 }
