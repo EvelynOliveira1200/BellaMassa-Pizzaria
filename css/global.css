@@ -44,20 +44,20 @@ h1 {
 
   #background img {
     width: 100%;
-    height: 953px;
+    height: 60rem;
     object-fit: cover;
 }
 
 #backgroundS {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     inset: 0;
 }
 #background::after {
     content: '';
-    width: inherit;
-    height: inherit;
+    width: 100%;
+    height: 60rem;
     position: absolute;
     inset: 0;
     background-image: linear-gradient(0deg, rgba(2, 12, 21, 0.895) 27%, rgba(146, 146, 146, 0.393) 76%);
@@ -82,14 +82,14 @@ h1 {
 
 #logo-img {
     align-items:center;
-    height: 150px;
-    width: 150px;
-    margin-left: 250px;
-    border-radius: 120px;
+    height: 9rem;
+    width: 9rem;
+    margin-left: 10rem;
+    border-radius: 100%;
   }
 .site-title {
-    margin-top: 50px;
-    margin-right: 250px;
+    margin-top: 2%;
+    margin-right: 2%;
     justify-content: center;
     font-size: 2rem;
 }
@@ -99,6 +99,14 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.nav-list a {
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
 
 .main-nav{
     margin-top: 50px;
@@ -121,15 +129,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: 5rem auto;
+    padding: 0 2rem;
 }
 
 .article{
-    flex:3;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    margin-bottom: 20rem;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -144,48 +149,49 @@ h1 {
 }
 
 .article-title{
-    color: rgb(0, 255, 64);
+    color: rgb(255, 0, 0);
     font-size: 1.5rem;
     margin-bottom: 15px;
-    margin-left: 300px;
     align-items: center;
     text-align: center;
     position: sticky;
 }
 
-.article-meta{
-    color: black;
-    font-size: 0.9rem;
-}
-
-.article-section{
-    margin-bottom: 15px;
-}
-
 .section-text{
-    margin-bottom: 15px;
+    margin-bottom: 15rem;
     color: rgb(255, 255, 255);
     line-height: 1.0;
     text-align: center;
+    align-items: center;
+}
+
+.Menu{
+    padding-top: 10rem;
+    margin-top: -10rem;
+}
+
+.Menu h2{
+    margin-left: 50rem;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
 }
 
 .container {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
-    
+    padding: 1rem;
+    margin-left: 3rem;
 }
 
 .container div {
     position: relative;
-    width: 30%;
     text-align: center;
     color: white;
-    border-radius: 8px;
+    border-radius: 2%;
     overflow: hidden;
-    margin-left: 150px;
-    width: 400px;
-    height: 400px;
+    margin-left: 2%;
+    width: 35rem;
+    height: 30rem;
 }
 
 .container img {
@@ -207,8 +213,8 @@ h1 {
 .container h2 {
     position: relative;
     z-index: 1;
-    margin: 20px 0;
-    margin-top: 155px;
+    margin: 3rem 0;
+    margin-top: 40%;
     font-size: 2rem;
     color: #ffffff;
     text-align: center;
@@ -220,6 +226,7 @@ h1 {
     color: #f1f0e6;
     padding: 20px;
     text-align: center;
+    
 }
 
 .footer-content {
