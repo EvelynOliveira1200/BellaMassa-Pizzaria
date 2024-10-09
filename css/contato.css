@@ -1,4 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@550&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Manrope:wght@200..800&display=swap');
+
+
+
+:root{
+  --cor-texto: #ffffff;
+  --background: #293038
+  --background-header: #020c1571;
+  --texto-header: #F6F6F8;
+  --transicao-header: #fcf9d8;
+}
+
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+}
+
+.afacad-flux {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
 
 * {
     margin: 0;
@@ -31,17 +58,6 @@ h1 {
     text-decoration: none;
     border: none;
 }
-
-  p {
-    font-family: "Cinzel", serif;
-    font-weight: 400;
-    font-size: medium;
-    font-style: normal;
-    color: #ffffff;
-    margin-left: 20px;
-    margin-right: 35px;
-  }
-
 
 .site-header {
   position: fixed;
@@ -108,7 +124,7 @@ h1 {
 
 #redes-equipe{
   margin-top: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -133,42 +149,58 @@ h1 {
 .equipe a{
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 6rem;
 
+
+}
+
+.line-contatos{
+  border-color: #020c15;
+  width: 70rem;
+  height: 1px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: #020c15;
+  opacity: 0.5;
+  margin-left: 30rem;
 
 }
 
 .contato h4 {
-  font-family: "Cinzel", serif;
-  font-size: 1.2rem;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
   color: rgba(255, 255, 255, 0.753);
+  font-weight: bold;
+
 }
 .contato p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.918);
-  margin-bottom: 5rem;
-  text-align: justify;
+  margin-bottom: 1rem;
+  text-align: center;
   align-items: flex-start;
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Afacad Flux", sans-serif;;
 
 }
 
 blockquote {
-  font-family: "Cinzel", serif;
-  font-weight: 10;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 20rem;
   color: rgb(221, 221, 221);
-  font-size: 1rem;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
